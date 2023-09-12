@@ -3,5 +3,5 @@
 # 文件使用方法
 使用vscode
 版本python3.10.11
-1.创建python虚拟环境 
+# # 1. 创建python虚拟环境 
 virtualenv -p python venv
