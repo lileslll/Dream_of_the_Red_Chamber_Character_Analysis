@@ -3,7 +3,10 @@
 ## 文件使用方法
 文件最主要的只有两个python文件，DataCollection.py和data_clean_transformation.py。  
 其中DataCollection.py用来爬取红楼梦数据，处理爬取的数据，创建“红楼梦”文件夹，将每一章分别保存为txt文件。
-data_clean_transformation.py用来处理爬取的数据并且可视化展示。由于使用了Plotly notebook 模式，需要安装Jupyter Notebook “pip install jupyter” 并且在终端启动Jupyter Notebook “jupyter notebook”
+data_clean_transformation.py用来处理爬取的数据并且可视化展示。由于使用了Plotly notebook 模式，需要安装Jupyter Notebook  
+pip install jupyter  
+并且在终端启动Jupyter Notebook  
+jupyter notebook
 使用vscode  
 版本python3.10.11
 ### 1. 创建python虚拟环境 
