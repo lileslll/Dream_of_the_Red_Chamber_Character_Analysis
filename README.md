@@ -15,7 +15,7 @@ virtualenv -p python venv
 venv\Scripts\activate  
 ### 项目依赖
 
-下面是项目所需的依赖包列表：
+下面是项目所需的依赖包列表：（也许会有多余的依赖，建议自己根据报错自己pip）
 - anyio==4.0.0
 - argon2-cffi==23.1.0
 - argon2-cffi-bindings==21.2.0
@@ -136,4 +136,20 @@ venv\Scripts\activate
 - widgetsnbextension==4.0.8
 
 
-### 
+### 2.运行数据收集文件
+python .\DataCollection.py  
+### 3.运行数据处理并可视化文件
+需要启动Jupyter Notebook  
+	jupyter notebook  
+ 将会跳转到网页  
+ 在VS Code中运行代码时，由于Plotly绘图库需要在Notebook环境中才能显示图像，所以无法直接在VS Code中显示图形。可以将该代码片段复制到一个Jupyter Notebook中，并在Jupyter Notebook中执行代码，以便正确显示网络图。  
+
+确保已经安装了必要的依赖库（如plotly、networkx等），然后按照以下步骤操作：
+
+1. 打开Jupyter Notebook。
+2. 在Jupyter Notebook中创建一个新的Notebook文件。
+3. 将data_clean_transformation.py中代码粘贴到新的Notebook单元格中。
+4. shift+enter执行单元格中的代码。
+5. 等待显示网络图。
+
+执行代码后，您应该能够在Jupyter Notebook中看到生成的网络图。注意，确保已经正确安装了Plotly和相关依赖库，并且安装的版本与代码兼容。
