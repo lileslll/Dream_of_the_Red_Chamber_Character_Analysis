@@ -6,7 +6,7 @@
 data_clean_transformation.py用来处理爬取的数据并且可视化展示。由于使用了Plotly notebook 模式，需要安装Jupyter Notebook  
 pip install jupyter  
 并且在终端启动Jupyter Notebook  
-jupyter notebook
+jupyter notebook  
 使用vscode  
 版本python3.10.11
 ### 1. 创建python虚拟环境 
