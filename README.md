@@ -5,7 +5,7 @@
 版本python3.10.11
 ### 1. 创建python虚拟环境 
 virtualenv -p python venv  
-激活venv虚拟环境  
+2.激活venv虚拟环境  
 venv\Scripts\activate  
 
 ### 
