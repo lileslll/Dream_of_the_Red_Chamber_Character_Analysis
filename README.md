@@ -140,7 +140,7 @@ venv\Scripts\activate
 python .\DataCollection.py  
 ### 3.运行数据处理并可视化文件
 需要启动Jupyter Notebook  
-	jupyter notebook  
+终端输入命令：	jupyter notebook  
  将会跳转到网页  
  在VS Code中运行代码时，由于Plotly绘图库需要在Notebook环境中才能显示图像，所以无法直接在VS Code中显示图形。可以将该代码片段复制到一个Jupyter Notebook中，并在Jupyter Notebook中执行代码，以便正确显示网络图。  
 
